@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    width: 30%;
+    border: solid black 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    display: none;
+}
+
+input, button {    
+    height:3rem;
+}
+
+button {
+    background-color: coral;
+}
+
+.message{
+    color:blue;
+    background-color: blanchedalmond;
+    font-size: 2rem;
+}
+
+.attempts-counter {
+    width: 30%;
+    background-color: rgb(136, 204, 235);
+    color : blue;
+}
